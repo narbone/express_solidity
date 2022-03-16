@@ -1,0 +1,5 @@
+curl -d '{"email":"fabio.narbone@gmail.com"}' -H "Content-Type: application/json" -X POST http://localhost:8082/register   
+
+curl -d '{"email":"fabio.narbone@gmail.com"}' -H "Content-Type: application/json" -X POST http://localhost:8082/login
+
+curl -F "buffer=@/Users/narbone/Desktop/piano.mp3" -F "name=song name" -F "title=song title"  -X POST http://localhost:8082/upload 
